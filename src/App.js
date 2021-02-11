@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Accordion from "./components/Accordion";
+import AccordionVariables from "./json/AccordionVariables.json";
+import Search from "./components/Search";
+import Dropdown from "./components/Dropdown";
+import dropdownVariables from "./json/DropdownVariables.json";
+import Translation from "./components/Translation";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const accordionData = AccordionVariables.accordionVariables;
+const dropdownData = dropdownVariables.dropdownVariables;
+
+const App = () => {
+  //   return <Accordion data={accordionData} />;
+  //   return <Search />;
+  // return <Dropdown options={dropdownData} label="Select a color" />;
+  return <Translation />;
+};
 
 export default App;

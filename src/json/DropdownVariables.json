@@ -1,0 +1,18 @@
+{
+    "dropdownVariables": [
+        {
+            "message": "The Color Green",
+            "value": "green"
+        }
+        , 
+        {
+            "message": "The Color Red", 
+            "value": "red"
+        }
+        , 
+        {
+            "message": "A Shade of Blue", 
+            "value" : "navy"
+        }
+    ]
+}
